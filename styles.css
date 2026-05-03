@@ -1,0 +1,38 @@
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+body {
+  margin: 20px;
+  font-family: Garamond, serif;
+  text-shadow: 1px 1px 2px #f0ebd8;
+}
+
+img {
+  border-radius: 4px;
+  border: 2px solid #f0ebd8;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  background: #748cab;
+  border-bottom: 6px solid #f0ebd8;
+  color: #1d2d44;
+  border-radius: 4px;
+}
+
+.card:hover {
+  background: #f0ebd8;
+  border-bottom: 6px solid #748cab;
+  text-shadow: 1px 1px 2px #748cab;
+  transition:
+    background 0.3s ease,
+    border-bottom 0.3s ease;
+}
